@@ -14,6 +14,7 @@ class CounterBloc {
 
   Stream get outputan => _outputController.stream;
 
+  // ERROR disini salah ketik bang - Kuldii Project
   CounterBloc() {
     _inputController.stream.listen(
       (event) {

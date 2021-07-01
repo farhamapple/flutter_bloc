@@ -14,7 +14,7 @@ class CounterBloc {
 
   Stream get outputan => _outputController.stream;
 
-  ConterBloc() {
+  CounterBloc() {
     _inputController.stream.listen(
       (event) {
         if (event == 'add') {
